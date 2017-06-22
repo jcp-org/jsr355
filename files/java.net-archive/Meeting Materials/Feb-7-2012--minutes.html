@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>JSR 355 EG meeting  minutes: February 7, 2012</title><style type="text/css">
+<!--
+.style1 {color: #FF0000}
+.style2 {color: #000000; }
+-->
+</style></head><body>
+<h1 align="center">JSR 355 Expert Group  Meeting Minutes<br />
+for 7 February 2012</h1>
+<p align="center"><em>version 0.1: February 8, 2011</em></p>
+<h2><strong>Date</strong></h2>
+<p>February 7     ,   2012</p>
+<h2>Location</h2>
+<p>Teleconference</p>
+<h2><strong>Agenda</strong></h2>
+<ul>
+  <li>Continued discussion of plans outlined in the <a href="http://java.net/projects/jsr355/downloads/download/Meeting Materials/EC-merge-February.pdf">EC-merge
+      presentation</a></li>
+  <li> <a href="http://java.net/projects/jsr355/pages/Home"></a> See also
+      the  <a href="http://jcp.org/en/jsr/summary?id=355">JSR
+          page</a>, and <a href="http://java.net/projects/jsr355/pages/Home">java.net
+          project</a></li>
+  </ul>
+<h2>Attendance:</h2>
+<table border="1" width="100%">
+  <tbody><tr>
+    <td colspan="2"><div align="center"><strong>PMO</strong></div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul>
+      <li>Patrick Curran, Heather Vancura</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td width="50%"><div align="center"><strong>ME EC </strong></div></td>
+    <td><div align="center"><strong>SE/EE EC </strong></div></td>
+  </tr>
+  <tr>
+    <td><ul>
+            
+      <li class="style2">Stefano Andreani <em>&#8211; present</em></li>
+      <li>Aplix &#8211; John Rizzo &#8211; <em>present</em> </li>
+      <li class="style1">ARM &#8211; not <em>present</em></li>
+      <li class="style2">AT&amp;T <em>&#8211; </em>Roger Mahler<em> &#8211; <em>present</em></em></li>
+      <li class="style1">CableLabs &#8211; not <em>present</em></li>
+      <li>IBM &#8211; Steve Wolfe &#8211; <em>present</em></li>
+      <li><span class="style2">Werner Keil &#8211; <em>presen</em>t</span></li>
+      <li class="style2">Nokia &#8211; Kimmo L&ouml;yt&auml;n&auml;  &#8211; <em>present</em></li>
+      <li>Oracle &#8211; Calinel Pasteanu <em>&#8211; present</em></li>
+      <li class="style1">RIM <em>&#8211; not present</em></li>
+      <li class="style1">Samsung <em>&#8211; not present</em></li>
+      <li class="style2">Siemens <em>&#8211; </em>Marquart Franz<em> <em>&#8211; present</em></em></li>
+      <li class="style1">SK Telecom <em>&#8211; not present</em> </li>
+      <li class="style1">T-Mobile <em>&#8211; not present</em> </li>
+      <li class="style2">TOTVS &ndash;&nbsp;Rob Glidden, Aguinaldo Boquimpani <em class="style2"><em>&ndash; present</em></em></li>
+      <li class="style2">Vodafone <em>&#8211; </em>Edin Bektesevic <em class="style2"><em>&ndash; present</em></em></li>
+    </ul>    
+      <p>Total attendance: 10 </p></td>
+    <td><ul>
+      <li class="style2">Azul Systems &#8211;Gile Tene &#8211;<em> present</em></li>
+      <li class="style2">Credit Suisse &#8211; Victor Grazi, Susanne Cech Previtali &#8211;<em> present</em></li>
+      <li>Eclipse &#8211; Wayne Beaton <em><span class="style2">&#8211; present</span></em></li>
+      <li><span class="style2">Ericsson &#8211; Magnus L&ouml;nnroth &#8211; <em>present</em></span></li>
+      <li>Fujitsu &#8211; Mike DeNicola  &#8211; <em>present</em></li>
+      <li>Goldman Sachs &#8211; John Weir &#8211; <em>present</em> </li>
+      <li class="style1">Google <em>&#8211; not present</em> </li>
+      <li>HP &#8211; Scott Jameson  &#8211; <em> present </em> </li>
+      <li>IBM &#8211; Steve Wolfe &#8211; <em>present</em></li>
+      <li>Intel &#8211; Anil Kumar &#8211; <em>present</em></li>
+      <li class="style2">London Java Community &#8211; Martijn Verburg &#8211; <em>present</em> </li>
+      <li>Oracle &#8211; Don Deutsch &#8211;<em> present</em></li>
+      <li>RedHat  &#8211; Mark Little, Scott Stark &#8211; <em>present</em></li>
+      <li>SAP &#8211; Steve Winkler &#8211; <em>present</em></li>
+      <li class="style1">SouJava <em>&#8211; not present</em> </li>
+      <li>Twitter &#8211; Attila Szegedi  &#8211; <em>present</em></li>
+    </ul>
+       <p>Total attendance: 14</p></td>
+  </tr>
+</tbody></table>
+
+<h2>Minutes</h2>
+<p> Patrick reported that
+  the JSR approval ballot had begun on the day of the EC meeting. He summarized
+  the results of previous discussions, noting that a great deal of progress had
+  already been made, with consensus having been achieved on most items (see
+  the  <a href="http://java.net/projects/jsr355/downloads/download/Meeting Materials/EC-merge-February.pdf">presentation</a>.) The group discussed two items
+  on which consensus had not yet been reached:</p>
+<p>1) Switch from a three-year
+  to a two-year election cycle?</p>
+<p>After a brief discussion a straw-poll was conducted. The results showed a
+  clear preference for a two-year cycle (17 votes to 4, with 3 abstentions.)</p>
+<p>2) Increase the minimum number of &quot;yes&quot; votes required for JSR 
+approval? </p>
+<p>Patrick noted that the current process requires a minimum of  five yes votes
+for JSR approval. If this were to be considered as a percentage of the number
+  of voting members on the EC as opposed to an absolute number then this implies
+  that on a merged EC of 25 members the minimum should be raised to eight. </p>
+<p>Some members argued for raising the minimum to eight, on the grounds that
+  it ought not to be &quot;too easy&quot; to get a JSR through the process. Others argued
+  for caution, saying that we did not know how such a change might interact with
+  the changes in  the structure
+  and membership of the EC - it might result in a failure to get worthy JSRs
+  approved. Another argument for the status quo was that so long as the proposers
+  of a JSR could get a minimum level of support they should be permitted to proceed.
+  We then took a straw-poll, which showed a strong consensus for making no change
+  (18 votes to 5.)</p>
+<p>Patrick then asked whether EG members wished to make any further suggestions
+  for changes to be incorporated into this JSR. None were made.</p>
+<p>The group then discussed how to proceed with the JSR. We agreed that since
+  we had such a strong consensus and had already worked out most of the details
+  of what needed to be done, it would not be necessary to meet as a Working Group,
+  separately from regular EC meetings. Patrick agreed to create an issue in
+  the
+  <a href="http://java.net/jira/browse/JSR355">Issue Tracker</a> for each of
+  the decisions that the group had made, so that members of the public could
+  comment if they wished. He also agreed to create a first draft of the revised
+  Process Document (and Standing Rules, if necessary) before the next EC meeting,
+  so that during that meeting the group could approve these documents as
+  the submissions for Early Draft Review.</p>
+<h3>&nbsp;</h3>
+</body></html>

@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>EC-merge Working Group minutes: January 10, 2012</title><style type="text/css">
+<!--
+.style1 {color: #FF0000}
+.style2 {color: #000000; }
+-->
+</style></head><body>
+<h1 align="center">EC-Merge Working Group  Meeting Minutes<br />
+for January 10 2012</h1>
+<h2><strong>Date</strong> and Location </h2>
+<p>January 10,   2012 during EC face-to-face meeting at Oracle, Redwood City
+CA </p>
+<h2><strong>Agenda</strong></h2>
+<ul>
+  <li><a href="http://java.net/projects/jsr355/downloads/download/Meeting Materials/EC-merge-January.pdf">EC Merge JSR</a> (JCP.next.2)
+    <ul>
+      <li>See also <a href="http://java.net/projects/jsr355/downloads/download/Meeting Materials/EC-merge-JSR.html">draft of JSR proposal</a> </li>
+    </ul>
+  </li>
+</ul>
+<h2>Attendance</h2>
+<table border="1" width="100%">
+  <tbody><tr>
+    <td colspan="2"><div align="center"><strong>PMO</strong></div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul>
+      <li>Patrick Curran</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td width="50%"><div align="center"><strong>ME EC </strong></div></td>
+    <td><div align="center"><strong>SE/EE EC </strong></div></td>
+  </tr>
+  <tr>
+    <td><ul>
+            
+      <li class="style2">Stefano Andreani <em>&#8211; present</em></li>
+      <li>Aplix &#8211; John Rizzo &#8211; <em>present</em> </li>
+      <li>ARM &#8211; Rob Barnes &#8211; <em>present</em></li>
+      <li class="style1">AT&amp;T <em>&#8211; not
+          present</em></li>
+      <li class="style2">CableLabs &#8211; Jon Courtney &#8211; <em>present</em></li>
+      <li>IBM &#8211; Mark Rogalski &#8211; <em>present</em></li>
+      <li><span class="style2">Werner Keil &#8211; <em>presen</em>t</span></li>
+      <li class="style2">Nokia &#8211; Erkki Rysa &#8211; <em>present</em></li>
+      <li>Oracle &#8211; Calinel Pasteanu <em>&#8211; present</em></li>
+      <li class="style2">RIM <em>&#8211; </em>Chris Wood <em>&#8211; present</em></li>
+      <li class="style1">Samsung <em>&#8211; not present</em></li>
+      <li class="style2">Siemens <em>&#8211; </em>Christoph Kuhmuench<em> <em>&#8211; present</em></em></li>
+      <li class="style1">SK Telecom <em>&#8211; not present</em> </li>
+      <li>T-Mobile <em>&#8211; </em>        Radom&iacute;r V&#283;ncek <em>&#8211; present</em></li>
+      <li class="style2">TOTVS &ndash;&nbsp;Rob Glidden, Aguinaldo Boquimpani <em class="style2"><em>&ndash; present</em></em></li>
+      <li class="style2">Vodafone <em>&#8211; </em>Edin Bektesevic <em class="style2"><em>&ndash; present</em></em></li>
+    </ul>    
+      <p>Total attendance: 13</p></td>
+    <td><ul>
+      <li class="style2">Azul Systems &#8211;Gile Tene &#8211;<em> present</em></li>
+      <li class="style2">Credit Suisse &#8211; Victor Grazi &#8211;<em> present</em></li>
+      <li>Eclipse &#8211; Mike Milinkovich <em><span class="style2">&#8211; present</span></em></li>
+      <li><span class="style2">Ericsson &#8211; Magnus L&ouml;nnroth &#8211; <em>present</em></span></li>
+      <li>Fujitsu &#8211; Mike DeNicola  &#8211; <em>present</em></li>
+      <li>Goldman Sachs &#8211; Scot Baldry  &#8211; <em>present</em> </li>
+      <li>Google &#8211; Josh Bloch &#8211; <em> present </em></li>
+      <li>HP &#8211; Dave Graham &#8211; <em> present </em> </li>
+      <li>IBM &#8211; Jason Gartner &#8211; <em>present</em></li>
+      <li>Intel &#8211; Anil Kumar &#8211; <em>present</em></li>
+      <li class="style2">London Java Community &#8211; Ben Evans &#8211; <em>present</em> </li>
+      <li>Oracle &#8211; Don Deutsch &#8211;<em> present</em></li>
+      <li>RedHat  &#8211; Scott Stark &#8211; <em>present</em></li>
+      <li>SAP &#8211; Steve Winkler &#8211; <em>present</em></li>
+      <li>SouJava  &#8211; Bruno Souza &#8211; <em>present</em></li>
+      <li>Twitter &#8211; Attila Szegedi  &#8211; <em>present</em></li>
+    </ul>
+       <p>Total attendance: 16</p></td>
+  </tr>
+</tbody></table>
+
+<h2>Minutes</h2>
+<h3>The EC-merge JSR</h3>
+<p>Patrick reviewed the current state of the plans for the <a href="http://java.net/projects/jsr355/downloads/download/Meeting Materials/EC-merge-January.pdf">EC-merge
+    JSR</a>. <br />
+  <br />
+During discussion of other changes that might be made in this JSR he noted that
+the language in the Process Document and EC Standing Rules concerning the need
+for a super-majority for JSRs that define new platforms or modify the Java language
+is potentially ambiguous (should abstentions be counted or not?) Most members
+agreed that the existing language explicitly excludes abstentions (so that the &quot;yes&quot; votes
+must amount to two-thirds of the &quot;yes&quot; and &quot;no&quot; votes cast)
+but Patrick suggested that it might be helpful to modify the Standing Rules to
+make this explicit. <br />
+<br />
+It was suggested that we might want to raise the minimum number of &quot;yes&quot;  votes
+for JSR approval from five (approximately one-third of the number of members
+on each individual EC) to 8 for the merged EC. No agreement was reached but we
+did agree to discuss this further. <br />
+<br />
+Members then proceeded to discuss the main proposals outlined in the presentation.<br />
+<br />
+On the proposal for a two-year as opposed to a three-year election cycle there
+did not seem to be a strong consensus. This will require further discussion.<br />
+<br />
+There was much discussion of whether 25 was the appropriate number of members
+for the merged EC - some people suggesting that if circumstances change we might
+not want to reduce the numbers at all. After considering the possibility of waiting
+until 2013 to choose the number we agreed to go ahead and complete the JSR with
+a target of 25, but to note that if circumstances change we could do a Maintenance
+Release in mid-2013 (before the election that would reduce the numbers) to modify
+this.<br />
+<br />
+Werner Keil asked whether we had the option in 2012 not to fill a ratified seat,
+but rather to wait until 2013. Patrick responded that we did include this provision
+in JSR 348.<br />
+<br />
+We discussed the possibility of changing the date of the annual elections in
+order to permit new members to meet others face-to-face as soon as possible afterwards
+(either at JavaOne or at an EC f2f meeting.) This did not seem practical, since
+the dates for JavaOne may change from year to year, and it would not be reasonable
+to expect election candidates who could not be sure they would win to commit
+to travel - possibly internationally - only a month after the election.<br />
+<br />
+We reviewed the <a href="http://java.net/projects/jsr355/downloads/download/Meeting Materials/EC-merge-JSR.html">proposed text of the JSR</a> and
+some minor revisions were suggested. Patrick agreed to make the suggested changes
+and then circulate the revised proposal for final EC approval. He said that he
+planned to file the JSR during the week ending January 20.</p>
+<h3>&nbsp;</h3>
+</body></html>
