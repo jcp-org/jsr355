@@ -5,7 +5,7 @@
 </tr>
 </table>
 
-This is the public project for  [JSR 355: JCP Executive Committee Merge](http://jcp.org/en/jsr/detail?id=3), 
+This is the public project for  [JSR 355: JCP Executive Committee Merge](http://jcp.org/en/jsr/detail?id=355), 
 the second of three JSRs to modify the JCP's processes. 
 
 This JSR will make changes to the JCP's Process Document and the Executive Committee's Standing Rules with the goal of merging the two Executive Committees into one and reducing the number of Executive Committee members from the current total of 32. 
