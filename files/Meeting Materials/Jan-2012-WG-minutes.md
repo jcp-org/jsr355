@@ -7,8 +7,8 @@ January 10, 2012 during EC face-to-face meeting at Oracle, Redwood City CA
 
 ## **Agenda**
 
-*   [EC Merge JSR](http://java.net/projects/jsr355/downloads/download/Meeting%20Materials/EC-merge-January.pdf) (JCP.next.2)
-    *   See also [draft of JSR proposal](http://java.net/projects/jsr355/downloads/download/Meeting%20Materials/EC-merge-JSR.md)
+*   [EC Merge JSR](/files/Meeting%20Materials/EC-merge-January.pdf) (JCP.next.2)
+    *   See also [draft of JSR proposal](/files/Meeting%20Materials/EC-merge-JSR.md)
 
 ## Attendance
 
@@ -110,7 +110,7 @@ Total attendance: 16
 
 ### The EC-merge JSR
 
-Patrick reviewed the current state of the plans for the [EC-merge JSR](http://java.net/projects/jsr355/downloads/download/Meeting%20Materials/EC-merge-January.pdf).  
+Patrick reviewed the current state of the plans for the [EC-merge JSR](/files/Meeting%20Materials/EC-merge-January.pdf).  
 
 During discussion of other changes that might be made in this JSR he noted that the language in the Process Document and EC Standing Rules concerning the need for a super-majority for JSRs that define new platforms or modify the Java language is potentially ambiguous (should abstentions be counted or not?) Most members agreed that the existing language explicitly excludes abstentions (so that the "yes" votes must amount to two-thirds of the "yes" and "no" votes cast) but Patrick suggested that it might be helpful to modify the Standing Rules to make this explicit.  
 
@@ -126,4 +126,4 @@ Werner Keil asked whether we had the option in 2012 not to fill a ratified seat,
 
 We discussed the possibility of changing the date of the annual elections in order to permit new members to meet others face-to-face as soon as possible afterwards (either at JavaOne or at an EC f2f meeting.) This did not seem practical, since the dates for JavaOne may change from year to year, and it would not be reasonable to expect election candidates who could not be sure they would win to commit to travel - possibly internationally - only a month after the election.  
 
-We reviewed the [proposed text of the JSR](http://java.net/projects/jsr355/downloads/download/Meeting%20Materials/EC-merge-JSR.md) and some minor revisions were suggested. Patrick agreed to make the suggested changes and then circulate the revised proposal for final EC approval. He said that he planned to file the JSR during the week ending January 20.
+We reviewed the [proposed text of the JSR](/files/Meeting%20Materials/EC-merge-JSR.md) and some minor revisions were suggested. Patrick agreed to make the suggested changes and then circulate the revised proposal for final EC approval. He said that he planned to file the JSR during the week ending January 20.

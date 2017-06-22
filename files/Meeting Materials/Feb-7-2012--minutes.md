@@ -13,8 +13,8 @@ Teleconference
 
 ## **Agenda**
 
-*   Continued discussion of plans outlined in the [EC-merge presentation](http://java.net/projects/jsr355/downloads/download/Meeting%20Materials/EC-merge-February.pdf)
-*   [](http://java.net/projects/jsr355/pages/Home)See also the [JSR page](http://jcp.org/en/jsr/summary?id=355), and [java.net project](http://java.net/projects/jsr355/pages/Home)
+*   Continued discussion of plans outlined in the [EC-merge presentation](/files/Meeting%20Materials/EC-merge-February.pdf)
+*   [](https:/github.com/jcp-org/jsr355/pages/Home)See also the [JSR page](http://jcp.org/en/jsr/summary?id=355), and [java.net project](https:/github.com/jcp-org/jsr355/pages/Home)
 
 ## Attendance:
 
@@ -114,7 +114,7 @@ Total attendance: 14
 
 ## Minutes
 
-Patrick reported that the JSR approval ballot had begun on the day of the EC meeting. He summarized the results of previous discussions, noting that a great deal of progress had already been made, with consensus having been achieved on most items (see the [presentation](http://java.net/projects/jsr355/downloads/download/Meeting%20Materials/EC-merge-February.pdf).) The group discussed two items on which consensus had not yet been reached:
+Patrick reported that the JSR approval ballot had begun on the day of the EC meeting. He summarized the results of previous discussions, noting that a great deal of progress had already been made, with consensus having been achieved on most items (see the [presentation](/files/Meeting%20Materials/EC-merge-February.pdf).) The group discussed two items on which consensus had not yet been reached:
 
 1) Switch from a three-year to a two-year election cycle?
 

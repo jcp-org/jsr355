@@ -165,7 +165,7 @@ All documents will be archived at http://java.net/projects/jsrxxx/pages/Document
 #### 3.1 Please list any existing documents, specifications, or implementations that describe the technology. Please include links to the documents if they are publicly available.
 
 *   The [Process Document](http://jcp.org/en/procedures/jcp2)
-*   The [EC Members' Guide](/files/Original%20source%20materials/EC_Member_Guide_1-2.pdf)
+*   The [EC Members' Guide](http://java.net/projects/jsr348/downloads/download/Original%20source%20materials/EC_Member_Guide_1-2.pdf)
 
 #### 3.2 Explanation of how these items might be used as a starting point for the work.
 
